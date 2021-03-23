@@ -18,6 +18,10 @@ import { Pair, Token } from '../../generated/schema'
 import { Factory as FactoryContract } from '../../generated/templates/Pair/Factory'
 import { Pair as PairContract } from '../../generated/templates/Pair/Pair'
 
+// TODO 
+import { findBestMatch } = from 'string-similarity'
+
+
 // export const uniswapFactoryContract = FactoryContract.bind(Address.fromString("0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"))
 
 export const factoryContract = FactoryContract.bind(FACTORY_ADDRESS)
